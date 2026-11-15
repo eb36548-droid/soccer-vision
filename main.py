@@ -24,7 +24,7 @@ else:
             break
 
         # Displays the current video frame
-        cv2.imshow("SoccerVision - Video Test", frame)
+        cv2.imshow("KickVision - Video Test", frame)
 
         # disable keybinds to allow me to exit the video playback early with the "q" key
         if cv2.waitKey(delay) & 0xFF == ord("q"):
